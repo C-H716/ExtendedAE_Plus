@@ -1,6 +1,6 @@
 name: Bug report / 错误报告
 description: You found a bug or encountered a crash? Please report it here.
-labels: [ "type: bug" ]
+labels: ["bug"]
 body:
   - type: markdown
     attributes:
@@ -46,7 +46,7 @@ body:
     attributes:
       label: Describe the bug / 描述错误
       description: |
-        Please describe as best as possible.
+        Please describe as best as possible. / 请尽可能详细地描述问题
         Always use the most recent version from [curseforge](https://www.curseforge.com/minecraft/mc-mods/extendedae-plus), it might already be fixed.
     validations:
       required: true
